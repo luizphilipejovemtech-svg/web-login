@@ -9,11 +9,6 @@ function validarLogin(event) {
     const usuarioInput = document.getElementById("usuario")
     const senhaInput = document.getElementById("password")
     const mensagemErro = document.getElementById("mensagem-erro")
-
-    const usuario = usuarioInput.value
-    const senha = senhaInput.value
-  
-    console.log(usuario, senha);
     
 
 
