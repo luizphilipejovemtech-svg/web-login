@@ -17,7 +17,7 @@ function validarLogin(event) {
     
 
 
-    if (usuarioInput === usuarioVlaido && senhaInput === senhaValida){
+    if (usuario === usuarioVlaido && senha === senhaValida){
              alert("login sucesso")
              console.log("login sucesso")
              window.location.href = 'logado.html'
