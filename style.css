@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background: #395796;
+    background: radial-gradient(circle, rgba(57, 87, 150, 1) 0%, rgba(87, 167, 199, 1) 100%, rgba(237, 83, 224, 1) 60%);
+}
+
+.conteiner{
+    width: 400px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background: #395796;
+    background: radial-gradient(circle, rgba(57, 87, 150, 1) 0%, rgba(87, 167, 199, 1) 100%, rgba(237, 83, 224, 1) 60%);
+}
+
+.h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 10px;   
+    
+}
+
+input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+       
+
+}
+button{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background: #395796;
+    cursor: pointer;
+    display: block; 
+}
+
+button:hover{
+    background: #293f6a;
+    color: white;
+}
+
+input[type="text"], input[type="email"], input[type="date"],input[type="password"], select{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.cadastro{
+    width: 600px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background: #395796;
+    background: radial-gradient(circle, rgba(57, 87, 150, 1) 0%, rgba(87, 167, 199, 1) 100%, rgba(237, 83, 224, 1) 60%);
+}
+

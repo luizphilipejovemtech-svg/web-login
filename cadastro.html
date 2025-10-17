@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <main>
+        <div class="cadastro">
+            <h1>cadastro</h1>
+            <form action="" id="formcadastro">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <label for="email" >Email</label>
+                <input type="email" id="email">
+                <label for="datanasc">Data de nascimento</label>
+                <input type="date" id="datanasc">
+                <label for="nivel">Escolaridade</label>
+                <select name="escolaridade" id="escolaridade">
+                    <option value="medio">Ensino Médio</option> 
+                    <option value="superior">Ensino Superior</option>
+                    <option value="pos">Pós-Graduação</option>
+                    <option value="mestrado">Mestrado</option>
+                </select>
+                <label for="genero">Genero</label>
+                <input type="radio" name="genero" id="masculino" value="masculino">Masculino
+                <input type="radio" name="genero" id="feminino" value="feminino">Feminino
+                <label for="linguagens">Linguagens de programação</label>
+                <input type="checkbox" name="habilidade" id="python" value="python">Python
+                <input type="checkbox" name="habilidade" id="c#" value="C#">C#
+                <input type="checkbox" name="habilidade" id="java" value="java">Java
+                <input type="checkbox" name="habilidade" id="javascript" value="javascript">JavaScript
+                <input type="checkbox" name="habilidade" id="php" value="php">PHP
+                <button type="submit" onclick="salvarcadastro(event)" id="cadastro" >Cadastar</button>
+
+            </form>
+
+        </div>
+    </main>
+    <script src="main.js" defer></script>
+
+
+
+
+
+
+</body>
+
+</html>
